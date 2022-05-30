@@ -29,7 +29,8 @@ class AlarmClock extends React.Component {
 
   setCurrentTime(){
     this.setState({
-      currentTime: new Date().toLocaleTimeString('en-US', { hour12: false })
+      currentTime1: new Date().toLocaleTimeString('en-US', { hour12: false }),
+	  currentTime2: new Date().toLocaleTimeString('en-US', { hour12: true })
     });
   }
 
@@ -61,7 +62,8 @@ class AlarmClock extends React.Component {
 			    <h1>React Alarm Clock</h1>			  
 		  </div>
 		  <div className="currentTime">
-        <h2>It is {this.state.currentTime}.</h2>
+        <h2>It is {this.state.currentTime1}.</h2>
+		<h2>It is {this.state.currentTime2}.</h2>
 			</div>
 		  <div className="message">
         <h2>{this.alarmMessage}
