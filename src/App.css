@@ -1,0 +1,43 @@
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh
+}
+
+body {
+	background-color: lightblue;
+}
+
+.alarm-clock {
+	background-color: white;
+	border-radius: 20px;
+	padding: 10px;
+	margin-top: 100px;
+	margin-left: 420px;
+	margin-right: 495px;
+}
+
+.title {
+	margin-left: 16px;
+}
+
+.currentTime {
+	border-radius: 10px;
+	margin-left: 50px;
+	margin-right: 63px;
+	background-color: lightblue;
+}
+
+.message {
+	background-color: lightblue;
+	border-radius: 10px;
+	margin-left: 30px;
+	margin-right: 20px;
+}
+
+.input {
+	margin-left: 90px;
+	margin-right: 103px;
+	background-color: lightblue;
+	border-radius: 10px;
+}
