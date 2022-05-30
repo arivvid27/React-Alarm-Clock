@@ -29,7 +29,7 @@ class AlarmClock extends React.Component {
 
   setCurrentTime(){
     this.setState({
-      currentTime: new Date().toLocaleTimeString('en-US', { hour12: true })
+      currentTime: new Date().toLocaleTimeString('en-US', { hour12: false })
     });
   }
 
